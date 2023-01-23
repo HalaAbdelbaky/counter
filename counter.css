@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+body{
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.container{
+margin:auto;
+margin-top:10vh;
+text-align: center;
+}
+.btns{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  width:300px;
+  margin:auto;
+}
+.btns button{
+  background-color: transparent;
+  border:2px solid black;
+  border-radius:20px;
+  padding:5px 15px;
+  cursor: pointer;
+}
+.btns button:hover{
+  background-color: black;
+  color:white;
+  outline:none;
+  transition: all  ease-in-out;
+}
+.container .num-result{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:35px;
+  font-weight: bold;
+}
